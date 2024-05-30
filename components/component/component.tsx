@@ -36,7 +36,7 @@ export function Component() {
       <header className="px-4 lg:px-6 h-14 flex items-center bg-gray-900 text-gray-50 dark:bg-gray-950 dark:text-gray-50">
         <Link className="flex items-center justify-center" href="#">
           <PaletteIcon className="h-6 w-6" />
-          <span className="sr-only">Designer's Portfolio</span>
+          <span className="sr-only">방경록</span>
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
           <Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
@@ -228,10 +228,10 @@ export function Component() {
         <div className="container px-4 md:px-6">
           <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 lg:gap-10">
             <div className="space-y-3">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Let's Work Together</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Lets Work Together</h2>
               <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                I'm excited to discuss your project and how I can help bring your vision to life. Fill out the form
-                below, and I'll get back to you as soon as possible.
+                Im excited to discuss your project and how I can help bring your vision to life. Fill out the form
+                below, and Ill get back to you as soon as possible.
               </p>
             </div>
             <div className="mx-auto w-full max-w-sm space-y-2">
@@ -257,7 +257,7 @@ export function Component() {
         </div>
       </section>
       <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t bg-gray-900 text-gray-50 dark:bg-gray-950 dark:text-gray-50">
-        <p className="text-xs">© 2024 Designer's Portfolio. All rights reserved.</p>
+        <p className="text-xs">© 2024 Designers Portfolio. All rights reserved.</p>
         <nav className="sm:ml-auto flex gap-4 sm:gap-6">
           <Link className="text-xs hover:underline underline-offset-4" href="#">
             Privacy
