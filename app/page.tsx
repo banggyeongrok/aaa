@@ -10,7 +10,7 @@ import { Button } from "@/components/ui/button";
 export default function Home() {
   return (
     <div className="flex flex-col min-h-[100dvh]">
- <header className="px-4 lg:px-6 h-14 flex items-center justify-center bg-gray-900 text-gray-50 dark:bg-gray-950 dark:text-gray-50">
+ <header className="px-4 lg:px-6 h-14 flex items-center justify-center bg-gray-900 text-gray-50 dark:bg-gray-950 dark:text-gray-50"id="메인화면">
   <div className="flex items-center justify-center">
     <Link className="flex items-center justify-center" href="#">
       <PaletteIcon className="h-6 w-6" />
@@ -20,19 +20,19 @@ export default function Home() {
   <nav className="ml-auto flex gap-4 sm:gap-6">
     <Link
       className="text-sm font-medium hover:underline underline-offset-4"
-      href="#"
+      href="#메인화면"
     >
       메인화면
     </Link>
     <Link
       className="text-sm font-medium hover:underline underline-offset-4"
-      href="#"
+      href="#작업물"
     >
       작업물
     </Link>
     <Link
       className="text-sm font-medium hover:underline underline-offset-4"
-      href="#"
+      href="#연락처"
     >
       연락처
     </Link>
@@ -164,7 +164,7 @@ export default function Home() {
         backgroundPosition: 'center',
       }}
     >
-  <div className="container px-4 md:px-6 flex flex-col items-center">
+  <div className="container px-4 md:px-6 flex flex-col items-center" id="작업물">
     <div className="flex flex-col items-center justify-center space-y-4 text-center">
       <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-gray-100">
         포트폴리오
@@ -272,8 +272,8 @@ export default function Home() {
   <img 
     src="/pon.png" 
     alt="Contact Icon" 
-    className="inline-block w-12 h-13 mr-3" // 이미지 크기를 12픽셀로 조정
-  />
+    className="inline-block w-12 h-13 mr-3" 
+    id="연락처"/>
   연락처를 남겨주세요.
 </h2>
               <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
