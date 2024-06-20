@@ -74,7 +74,7 @@ export default function Home() {
         </div>
         <div className="flex flex-col gap-2 min-[400px] md:flex-row justify-center">
           <a
-            className="inline-flex h-10 items-center justify-center rounded-md bg-gray-50 px-8 text-sm font-medium text-gray-900 shadow transition-colors hover:bg-gray-100 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-800 dark:text-gray-50 dark:hover:bg-gray-700 dark:focus-visible:ring-gray-300"
+            className="font-bold inline-flex h-10 items-center justify-center rounded-md bg-gray-300 px-8 text-sm font-medium text-gray-700 shadow transition-colors hover:bg-gray-100 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-800 dark:text-gray-50 dark:hover:bg-gray-700 dark:focus-visible:ring-gray-300"
             href="https://www.pixiv.net/users/31384520"
             target="_blank"
             rel="noopener noreferrer"
@@ -82,7 +82,7 @@ export default function Home() {
             작업물
           </a>
           <a
-            className="inline-flex h-10 items-center justify-center rounded-md bg-gray-50 px-8 text-sm font-medium text-gray-900 shadow transition-colors hover:bg-gray-100 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-800 dark:text-gray-50 dark:hover:bg-gray-700 dark:focus-visible:ring-gray-300"
+            className="inline-flex h-10 items-center justify-center rounded-md bg-gray-300 px-8 text-sm font-medium text-gray-700 shadow transition-colors hover:bg-gray-100 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-800 dark:text-gray-50 dark:hover:bg-gray-700 dark:focus-visible:ring-gray-300"
             href="#"
           >
             e메일 : rudfhr2679@naver.com
@@ -285,23 +285,23 @@ export default function Home() {
             <div className="mx-auto w-full max-w-sm space-y-2">
               <form className="flex flex-col gap-4">
                 <div className="space-y-1">
-                  <Label htmlFor="name">Name</Label>
-                  <Input id="name" placeholder="Your Name" required />
+                  <Label htmlFor="name">이름</Label>
+                  <Input id="name" placeholder="당신의 이름" required />
                 </div>
                 <div className="space-y-1">
-                  <Label htmlFor="email">Email</Label>
+                  <Label htmlFor="email">이메일</Label>
                   <Input
                     id="email"
-                    placeholder="you@example.com"
+                    placeholder="홍길동@naver.com"
                     required
                     type="email"
                   />
                 </div>
                 <div className="space-y-1">
-                  <Label htmlFor="message">Message</Label>
+                  <Label htmlFor="message">메세지</Label>
                   <Textarea
                     id="message"
-                    placeholder="How can I help you?"
+                    placeholder="어떻게 도와드릴까요?"
                     required
                     rows={5}
                   />
