@@ -157,13 +157,19 @@ export default function Home() {
   </div>
 </section>
 
-<section className="w-full py-12 md:py-24 lg:py-32 flex items-center justify-center">
+<section className="w-full py-12 md:py-24 lg:py-32 flex items-center justify-center bg-cover bg-center"
+      style={{ 
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/qqq.jpg')`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+      }}
+    >
   <div className="container px-4 md:px-6 flex flex-col items-center">
     <div className="flex flex-col items-center justify-center space-y-4 text-center">
-      <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+      <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-gray-100">
         포트폴리오
       </h2>
-      <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+      <p className="font-bold max-w-[900px] text-gray-100 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
         그동안 그린 작업물들 과 연습작품입니다. 천천히 둘러봐 주시면
         감사하겠습니다.
       </p>
