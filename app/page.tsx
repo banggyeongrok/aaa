@@ -22,19 +22,19 @@ export default function Home() {
       className="text-sm font-medium hover:underline underline-offset-4"
       href="#"
     >
-      Work
+      메인화면
     </Link>
     <Link
       className="text-sm font-medium hover:underline underline-offset-4"
       href="#"
     >
-      About
+      작업물
     </Link>
     <Link
       className="text-sm font-medium hover:underline underline-offset-4"
       href="#"
     >
-      Contact
+      연락처
     </Link>
   </nav>
 </header>
