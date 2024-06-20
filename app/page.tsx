@@ -107,7 +107,7 @@ export default function Home() {
   className="w-full py-12 md:py-24 lg:py-32 bg-yellow-200 flex justify-center"
   style={{
     backgroundImage: `url('/ggg.png')`,
-    backgroundSize: "10%",
+    backgroundSize: "60%",  
     backgroundPosition: "100%",
     backgroundRepeat: "repeat",
   }}
@@ -169,99 +169,107 @@ export default function Home() {
       </p>
     </div>
     <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 sm:grid-cols-2 lg:grid-cols-3 lg:gap-12">
-      <Card>
-        <CardContent className="flex flex-col items-start gap-4">
-          <img
-            alt="Project 1"
-            className="object-cover group-hover:scale-110 transition-transform duration-300"
-            height="310"
-            src="/ccc.jpg"
-            width="550"
-          />
-          <div className="space-y-2">
-            <h3 className="text-xl font-bold">북방 민족</h3>
-            <p className="text-gray-500 dark:text-gray-400">
-              겨울을 컨셉으로한 북방민족 소녀
-              <br />캐릭터 디자인 입니다.
-            </p>
-          </div>
-          <Link
-            className="inline-flex h-9 items-center justify-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
-            href="https://www.pixiv.net/users/31384520"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View
-          </Link>
-        </CardContent>
-      </Card>
-      <Card>
-        <CardContent className="flex flex-col items-start gap-4">
-          <img
-            alt="Project 2"
-            className="object-cover group-hover:scale-110 transition-transform duration-300"
-            height="310"
-            src="/ddd.png"
-            width="550"
-          />
-          <div className="space-y-2">
-            <h3 className="text-xl font-bold">해적 선장</h3>
-            <p className="text-gray-500 dark:text-gray-400">
-              해적을 컨셉으로한 여선장
-              <br />캐릭터 디자인 입니다.
-            </p>
-          </div>
-          <Link
-            className="inline-flex h-9 items-center justify-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
-            href="https://www.pixiv.net/users/31384520"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View
-          </Link>
-        </CardContent>
-      </Card>
-      <Card>
-        <CardContent className="flex flex-col items-start gap-4">
-          <img
-            alt="Project 3"
-            className="object-cover group-hover:scale-110 transition-transform duration-300"
-            height="310"
-            src="/eee.jpg"
-            width="550"
-          />
-          <div className="space-y-2">
-            <h3 className="text-xl font-bold">붉은 여기사</h3>
-            <p className="text-gray-500 dark:text-gray-400">
-              기사를 컨셉으로한 붉은 여기사
-              <br />캐릭터 디자인 입니다.
-            </p>
-          </div>
-          <Link
-            className="inline-flex h-9 items-center justify-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
-            href="https://www.pixiv.net/users/31384520"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View
-          </Link>
-        </CardContent>
-      </Card>
-    </div>
+  <Card>
+    <CardContent className="flex flex-col items-start gap-4">
+      <img
+        alt="Project 1"
+        className="object-cover group-hover:scale-110 transition-transform duration-300"
+        height="310"
+        src="/ccc.jpg"
+        width="550"
+        style={{ height: '310px', width: '100%', objectFit: 'cover' }}
+      />
+      <div className="space-y-2">
+        <h3 className="text-xl font-bold">북방 민족</h3>
+        <p className="text-gray-500 dark:text-gray-400">
+          겨울을 컨셉으로한 북방민족 소녀
+          <br />캐릭터 디자인 입니다.
+        </p>
+      </div>
+      <Link
+        className="inline-flex h-9 items-center justify-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
+        href="https://www.pixiv.net/users/31384520"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        View
+      </Link>
+    </CardContent>
+  </Card>
+  <Card>
+    <CardContent className="flex flex-col items-start gap-4">
+      <img
+        alt="Project 2"
+        className="object-cover group-hover:scale-110 transition-transform duration-300"
+        height="310"
+        src="/ddd.png"
+        width="550"
+        style={{ height: '310px', width: '100%', objectFit: 'cover' }}
+      />
+      <div className="space-y-2">
+        <h3 className="text-xl font-bold">해적 선장</h3>
+        <p className="text-gray-500 dark:text-gray-400">
+          해적을 컨셉으로한 여선장
+          <br />캐릭터 디자인 입니다.
+        </p>
+      </div>
+      <Link
+        className="inline-flex h-9 items-center justify-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
+        href="https://www.pixiv.net/users/31384520"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        View
+      </Link>
+    </CardContent>
+  </Card>
+  <Card>
+    <CardContent className="flex flex-col items-start gap-4">
+      <img
+        alt="Project 3"
+        className="object-cover group-hover:scale-110 transition-transform duration-300"
+        height="310"
+        src="/eee.jpg"
+        width="550"
+        style={{ height: '310px', width: '100%', objectFit: 'cover' }}
+      />
+      <div className="space-y-2">
+        <h3 className="text-xl font-bold">붉은 여기사</h3>
+        <p className="text-gray-500 dark:text-gray-400">
+          기사를 컨셉으로한 붉은 여기사
+          <br />캐릭터 디자인 입니다.
+        </p>
+      </div>
+      <Link
+        className="inline-flex h-9 items-center justify-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
+        href="https://www.pixiv.net/users/31384520"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        View
+      </Link>
+    </CardContent>
+  </Card>
+</div>
   </div>
 </section>
 
 
-      <section
+<section
         className="w-full py-12 md:py-24 lg:py-32 border-t flex items-center justify-center"
         id="contact"
       >
         <div className="container px-4 md:px-6">
           <div className="grid gap-4 px-4 text-center md:px-6 lg:gap-10">
             <div className="space-y-3">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                연락처를 남겨주세요
-              </h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl flex items-center justify-center">
+  <img 
+    src="/pon.png" 
+    alt="Contact Icon" 
+    className="inline-block w-12 h-13 mr-3" // 이미지 크기를 12픽셀로 조정
+  />
+  연락처를 남겨주세요.
+</h2>
               <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                 이곳에 성함과 이메일을 남겨주시고 <br></br>
                 간단하게 작업하고 싶은 프로젝트 내용을 말씀 드리시면
@@ -300,6 +308,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+
       <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t bg-gray-900 text-gray-50 dark:bg-gray-950 dark:text-gray-50">
         <p className="text-xs">
           © 2024 Designers Portfolio. All rights reserved.
