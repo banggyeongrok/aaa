@@ -79,15 +79,14 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            작업물
+            더보기
           </a>
       <a
   className="inline-flex h-10 items-center justify-center rounded-md bg-gray-100 px-8 text-sm font-medium text-gray-700"
   href="#"
   style={{ pointerEvents: 'none' }}
 >
-  이메일 : rudfhr2679@naver.com<br></br>
-  연락처 : 010-8283-2679
+  이메일 : rudfhr2679@naver.com
 </a>
 
         </div>
@@ -290,7 +289,8 @@ export default function Home() {
               <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                 이곳에 성함과 이메일을 남겨주시고 <br></br>
                 간단하게 작업하고 싶은 프로젝트 내용을 말씀 드리시면
-                <br></br> 원활한 작업 진행이 가능합니다.
+                <br></br> 원활한 작업 진행이 가능합니다.<br></br>
+                (연락처 : 010-8283-2679)
               </p>
             </div>
             <div className="mx-auto w-full max-w-sm space-y-2">
@@ -328,7 +328,7 @@ export default function Home() {
 
       <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t bg-gray-900 text-gray-50 dark:bg-gray-950 dark:text-gray-50">
         <p className="text-xs">
-          방경록.
+        © 2024 방경록 2D 디자이너 포트폴리오.
         </p>
       </footer>
     </div>
