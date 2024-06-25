@@ -107,7 +107,7 @@ export default function Home() {
   className="w-full py-12 md:py-24 lg:py-32 bg-yellow-200 flex justify-center"
   style={{
     backgroundImage: `url('/ggg.png')`,
-    backgroundSize: "60%",  
+    backgroundSize: "60%",
     backgroundPosition: "100%",
     backgroundRepeat: "repeat",
   }}
@@ -130,9 +130,16 @@ export default function Home() {
             <h3 className="text-xl font-bold ">5 Years</h3>
             <p className="text-sm">5년간 그림을 그려 쌓아온 경력</p>
           </div>
-          <div className="rounded-lg bg-gray-100 p-4 text-gray-600 dark:bg-gray-950 dark:text-gray-50">
-            <h3 className="text-xl font-bold">3D OK</h3>
-            <p className="text-sm">3D작업도 가능</p>
+          <div className="rounded-lg bg-gray-100 p-4 text-gray-600 dark:bg-gray-950 dark:text-gray-50 flex items-center justify-between">
+            <div>
+              <h3 className="text-xl font-bold">3D OK</h3>
+              <p className="text-sm">3D작업도 가능</p>
+            </div>
+            <img
+              src="/max.png"
+              alt="3D 작업"
+              className="w-12 h-12 ml-4"
+            />
           </div>
           <div className="rounded-lg bg-gray-100 p-4 text-gray-600 dark:bg-gray-950 dark:text-gray-50">
             <h3 className="text-xl font-bold">98% satisfaction</h3>
@@ -156,6 +163,7 @@ export default function Home() {
     </div>
   </div>
 </section>
+
 
 <section className="w-full py-12 md:py-24 lg:py-32 flex items-center justify-center bg-cover bg-center"
       style={{ 
