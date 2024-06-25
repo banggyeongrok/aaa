@@ -81,13 +81,15 @@ export default function Home() {
           >
             작업물
           </a>
-          <a
-  className="inline-flex h-10 items-center justify-center rounded-md bg-gray-100 px-8 text-sm font-medium text-gray-700 "
+      <a
+  className="inline-flex h-10 items-center justify-center rounded-md bg-gray-100 px-8 text-sm font-medium text-gray-700"
   href="#"
-  style={{ pointerEvents: 'none' }} 
+  style={{ pointerEvents: 'none' }}
 >
-  e메일 : rudfhr2679@naver.com
+  이메일 : rudfhr2679@naver.com<br></br>
+  연락처 : 010-8283-2679
 </a>
+
         </div>
       </div>
       <div className="flex justify-center">
@@ -326,16 +328,8 @@ export default function Home() {
 
       <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t bg-gray-900 text-gray-50 dark:bg-gray-950 dark:text-gray-50">
         <p className="text-xs">
-          © 2024 Designers Portfolio. All rights reserved.
+          방경록.
         </p>
-        <nav className="sm:ml-auto flex gap-4 sm:gap-6">
-          <Link className="text-xs hover:underline underline-offset-4" href="#">
-            Privacy
-          </Link>
-          <Link className="text-xs hover:underline underline-offset-4" href="#">
-            Terms
-          </Link>
-        </nav>
       </footer>
     </div>
   );
