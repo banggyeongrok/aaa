@@ -42,7 +42,7 @@ export default function Home() {
       <section
   className="w-full py-12 md:py-24 lg:py-32 xl:py-48 text-gray-100 dark:text-gray-100 flex justify-center"
   style={{
-    backgroundImage: `url('/fff.jpg')`,
+    backgroundImage: `url('/fff.png')`,
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
@@ -74,7 +74,7 @@ export default function Home() {
         </div>
         <div className="flex flex-col gap-2 min-[400px] md:flex-row justify-center">
           <a
-            className="font-bold inline-flex h-10 items-center justify-center rounded-md bg-gray-300 px-8 text-sm font-medium text-gray-700 shadow transition-colors hover:bg-gray-100 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-800 dark:text-gray-50 dark:hover:bg-gray-700 dark:focus-visible:ring-gray-300"
+            className="font-bold inline-flex h-10 items-center justify-center rounded-md bg-gray-100 px-8 text-sm font-medium text-gray-700 shadow transition-colors hover:bg-gray-300 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-800 dark:text-gray-50 dark:hover:bg-gray-300 dark:focus-visible:ring-gray-300"
             href="https://www.pixiv.net/users/31384520"
             target="_blank"
             rel="noopener noreferrer"
@@ -82,11 +82,12 @@ export default function Home() {
             작업물
           </a>
           <a
-            className="inline-flex h-10 items-center justify-center rounded-md bg-gray-300 px-8 text-sm font-medium text-gray-700 shadow transition-colors hover:bg-gray-100 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-800 dark:text-gray-50 dark:hover:bg-gray-700 dark:focus-visible:ring-gray-300"
-            href="#"
-          >
-            e메일 : rudfhr2679@naver.com
-          </a>
+  className="inline-flex h-10 items-center justify-center rounded-md bg-gray-100 px-8 text-sm font-medium text-gray-700 "
+  href="#"
+  style={{ pointerEvents: 'none' }} 
+>
+  e메일 : rudfhr2679@naver.com
+</a>
         </div>
       </div>
       <div className="flex justify-center">
