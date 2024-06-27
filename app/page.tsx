@@ -1,22 +1,25 @@
 import Image from "next/image";
 
+
 import Link from "next/link";
 import { CardContent, Card } from "@/components/ui/card";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: '방경록 의 포트폴리오',
+  description: '...',
+}
 
 export default function Home() {
-  return (
+  return ( 
+
     <div className="flex flex-col min-h-[100dvh]">
  <header className="px-4 lg:px-6 h-14 flex items-center justify-center bg-gray-900 text-gray-50 dark:bg-gray-950 dark:text-gray-50"id="메인화면">
-  <div className="flex items-center justify-center">
-    <Link className="flex items-center justify-center" href="#">
-      <PaletteIcon className="h-6 w-6" />
-      <span className="sr-only">방경록</span>
-    </Link>
-  </div>
+
   <nav className="ml-auto flex gap-4 sm:gap-6">
     <Link
       className="text-sm font-medium hover:underline underline-offset-4"
